@@ -1,7 +1,7 @@
 (function () {
     // Initialize EmailJS with your Public Key
     // Replace "YOUR_PUBLIC_KEY" with your actual public key from EmailJS dashboard
-    emailjs.init("YOUR_PUBLIC_KEY");
+    emailjs.init("9_I4ibu8KEUtCgjDg");
 
     // Handle Contact Form Submission
     const contactForm = document.getElementById('contact-form');
@@ -10,8 +10,8 @@
             event.preventDefault();
 
             // These IDs from your EmailJS account
-            const serviceID = 'YOUR_SERVICE_ID';
-            const templateID = 'YOUR_CONTACT_TEMPLATE_ID';
+            const serviceID = 'service_mwru1q8';
+            const templateID = 'template_931njkh';
 
             // Show loading state
             const submitBtn = contactForm.querySelector('button[type="submit"]');
@@ -39,8 +39,8 @@
         subscribeForm.addEventListener('submit', function (event) {
             event.preventDefault();
 
-            const serviceID = 'YOUR_SERVICE_ID';
-            const templateID = 'YOUR_SUBSCRIBE_TEMPLATE_ID';
+            const serviceID = 'service_mwru1q8';
+            const templateID = 'template_hvwjqgm';
 
             const submitBtn = subscribeForm.querySelector('input[type="submit"]');
             const originalBtnValue = submitBtn.value;
